@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zeng.vector.leakmemdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_stick_vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StrictMode For VM"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_install_leakcanary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="install LeakCanary"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_start_leak_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动会泄漏的activity"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_test_weak_reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test WeakReference 请使用 IDEA 环境测试"
+        android:onClick="onClick"/>
+</LinearLayout>

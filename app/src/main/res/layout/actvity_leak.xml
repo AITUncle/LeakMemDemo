@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zeng.vector.leakmemdemo.LeakAct">
+
+    <Button
+        android:id="@+id/btn_closeable_leak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="io closeable leak"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btn_thread_leak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="io thread leak"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btn_show_leak_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show leak fragment"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btn_remove_leak_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remove leak fragment"
+        android:onClick="onClick"
+        />
+
+
+    <Button
+        android:id="@+id/btn_regiest_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="regiest broadcast"
+        android:onClick="onClick"
+        />
+
+    <FrameLayout
+        android:id="@+id/container_fg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</LinearLayout>
